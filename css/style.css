@@ -7,13 +7,6 @@ body
 {
 
 }
-.navbar
-{
-    background-color: rgb(39, 39, 39);
-    justify-content: space-between;
-    align-items: center;
-    
-}
 .navbar-left
 {
 margin-left: 150px;
@@ -39,6 +32,7 @@ width: 10vw;
 .selector
 {
     margin-left: 8px;
+    
     
 }
 .selector a {
@@ -72,6 +66,7 @@ font-size: 13px;
 .lupa
 {
     width: 30px;
+    
     
 }
 .lupa a{
@@ -420,4 +415,12 @@ margin-top: 8px;
     }
     
 }
-    
+
+.navbar-brand
+{
+    background-color: rgb(39, 39, 39);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+   
+}
