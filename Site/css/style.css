@@ -5,7 +5,7 @@
 }
 body
 {
-
+    position: absolute;
 }
 .navbar-left
 {
@@ -32,18 +32,13 @@ width: 10vw;
 .selector
 {
     margin-left: 8px;
-    
-    
+
 }
 .selector a {
     background-color: none;
     color: inherit;
 }
-.carrinho
-{
-    
-    
-}
+
 .entrar a
 {
 text-decoration: none;
@@ -422,5 +417,20 @@ margin-top: 8px;
     justify-content: space-between;
     align-items: center;
     display: flex;
+    width: 100%;
    
 }
+#menu-hamb
+{
+   padding-left: 7px; 
+   display: none;
+   position: absolute;
+   
+}
+
+    
+.box-navegador{
+    align-items: center;
+    display: flex;
+}
+

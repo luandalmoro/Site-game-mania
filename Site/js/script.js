@@ -32,3 +32,8 @@ setInterval(function()
             x = 0;
         }
 }, 5000)
+
+function mostrarmenu()
+{
+  
+}
